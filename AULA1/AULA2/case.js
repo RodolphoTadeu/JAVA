@@ -20,7 +20,7 @@ switch(op){
     case"%": var res = n1%n2;
     
     default: 
-    window.alert("Operador informado e invalido repita a operação!")
+    //window.alert("Operador informado e invalido repita a operação!")
     //location.reload()
 }
 
