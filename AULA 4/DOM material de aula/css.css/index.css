@@ -1,0 +1,15 @@
+body{
+    background-color: lightsalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#teste{
+    width: 350px;
+    height: 350px;
+    background-color: blueviolet;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    padding: 45px;
+    margin: 10px  0px;
+}
