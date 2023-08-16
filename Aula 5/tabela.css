@@ -1,0 +1,73 @@
+*{padding: 0%;
+    margin: 0%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+table {
+    border-collapse: collapse; 
+    width: 500px;
+    height: 100px;
+}
+td, th{
+
+        border: 1px solid rgb(15, 10, 1);
+        padding: 20px;
+        margin: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+td:hover {background-color: rgb(18, 19, 18);
+
+    color: blueviolet;
+
+text-overflow: ellipsis;}
+
+th{background-color: rgb(104, 104, 175);
+}
+
+
+input{
+    BORDER-color:none;
+    margin: 30px;
+    height: 40PX;
+    width: 100PX;
+    padding: 10PX;
+    border-bottom: 2px solid rgb(2, 2, 2);
+}
+
+input:focus {background-color: rgb(156, 165, 141);
+transition: 1s;
+border-bottom-left-radius: 2px solid red;
+}
+
+thead{
+
+    position: sticky;
+    top: -1px
+}
+
+#TESTE{
+background-color: black;
+    width: 300px;
+    height: 7000px;
+}
+
+#tabelaalunos tbody tr td :first-of-type{ 
+    background-color: brown;
+}
+
+table th tr:empty {
+background-color: black;
+border: none;
+}
+
+td:active{
+    background-color: rgb(72, 255, 0);
+    color: aliceblue;
+}
+
+input:disabled{
+    background-color: gold;
+}

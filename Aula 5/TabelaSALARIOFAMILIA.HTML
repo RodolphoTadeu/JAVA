@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALARIO FAMILIA</title>
+    <link rel="stylesheet" href="SALARIOFAMILIA.CSS">
+</head>
+<body>
+    <header>
+        <img src="AtividadeSalarioFamilia/images/salario-familia.jpg" id="logo">
+    </header>
+
+    <nav>
+        <legend> CALCULADORA PARA SALÁRIO FAMÍLIA </legend>
+        <BR>
+            <BR>
+        <label for="nome">Informe seu nome:</label><br>
+        <input type="text" id="nome" required><br>
+        <br>
+
+        <label for="idade">Quatidade de filhos menores de 14 ou invalidos</label><br>
+    <input type="number" id="filhos"required placeholder="somente números" min="0" max="10" step="1"><br>
+<br>
+
+<label for="idade">Informe seu salário:</label><br>
+    <input type="number" id="salario"required placeholder="somente números"><br>
+    </nav>
+<div id="tabela">
+    <table>
+
+        <tr>
+            
+            <TH>SALÁRIO CONTRIBUIÇÃO</TH><br>
+            <TH>COTA DO SALÁRIO FAMILIA</TH><br>
+        </tr>
+        <tr>
+            
+            <td>Até R$ 806,80</td>
+            <td>R$ 41,37 por filho </td>
+           
+            </tr>
+
+            <tr> 
+                <td>Entre  R$ 806,81 e R$ 1.212,64</td>
+                <td>R$ 29,16 por filho</td>
+                
+                </tr>
+
+            <tr>
+                <td>Mais de R$ 1.212,64</td>
+                <td>Não há</td>
+            </tr>
+    </table>
+</div>
+<br>
+<br>
+
+<div id="botao"><button >CALCULAR</button></div>
+
+
+
+
+<script src="FORMULÁRIO HTML/salariofamilia.js"></script>
+</body>
+</html>
