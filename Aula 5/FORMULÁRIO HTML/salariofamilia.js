@@ -1,12 +1,13 @@
 const nome = document.getElementById("nome");
 const filhos = document.getElementById("filhos");
 const salario = document.getElementById("salario");
-var botao = document.getElementById ("Calcular");
+var botao = document.getElementById ("botao");
+const resultado = document.getElementById("resultado")
 var familia = 0;
 
-botao.addEventListener('click',validar);
+botao.addEventListener('click',validar); //<-- A fUNÇÃO PARA FAZER O BOTÃO VERIFICAR 
 function validar(){
-    if(nome.value === null || nome.value === undefined || nome.value === ""){
+    if(nome.value === null || nome.value === undefined || nome.value === ""){    //a
     window.alert ("Informe seu nome!");
 }
 else{
@@ -23,31 +24,15 @@ else{
                 var familia = filho.value *41.37
             }
             else{
-                if( salario.value >= 806.81 & salario.value <= 1212.64)
+                if( salario.value >= 806.81 & salario.value <= 1212.64){
+
             }
+        }
+        window.alert = '$(filhos.value), o salario familia e de R$: $( resultado)';
             }
         }
     }  
 }
 
-// function validar(){
 
-//     var nome= document.getElementById("#nome").value;
-//     var filhos= document.getElementById("#filhos").value;
-//     var salario = document.getElementById("salario").value;
-
-// if(nome ! )
-
-
-
-
-//     if(email === emailcadastrado & senha === senhaUsuario){
-//         window.alert ("E isso ai caralho! acertou a senha");
-//         window.location.href ="https://google.com";
-//     }else{
-    
-//         window.alert("Incorreto senha ou email, por favor repetir!");
-//     }
-    
-// }
 
