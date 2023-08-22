@@ -1,0 +1,43 @@
+
+body {
+            background-color: gray;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+
+
+ .assunto{
+     width: 80%;
+     margin: 0px auto;
+     border-radius: 10%;
+     background-color: aquamarine;
+     padding: 10%;
+ }
+
+
+ .assuntoCodigo{
+    width: 90%;
+    margin: 0px auto;
+    border-radius: 2%;
+    background-color: lightcoral;
+    padding: 45px;
+
+ }
+
+
+ .assunto2{
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 10%;
+    background-color: beige;
+    padding: 10%;
+}
+
+
+.map{
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 10%;
+    background-color: beige;
+    padding: 10%;
+}
